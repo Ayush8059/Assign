@@ -1,0 +1,90 @@
+/* Container Background */
+.login-container {
+  min-height: 100vh;
+  background-color: #f3f4f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Login Card */
+.login-card {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Title */
+.login-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #2f855a;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Input Group */
+.input-group {
+  margin-bottom: 1.25rem;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.4rem;
+  color: #4b5563;
+  font-size: 0.9rem;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.input-group input:focus {
+  border-color: #4299e1;
+  box-shadow: 0 0 0 2px rgba(66, 153, 225, 0.3);
+  outline: none;
+}
+
+/* Button */
+.login-button {
+  width: 100%;
+  background-color: #4299e1;
+  color: white;
+  padding: 0.65rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.login-button:hover {
+  background-color: #3182ce;
+}
+
+/* Footer */
+.login-footer {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.signup-link {
+  color: #4299e1;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}

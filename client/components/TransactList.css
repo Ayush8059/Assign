@@ -1,0 +1,57 @@
+/* TransactionList.css */
+
+.transaction-container {
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.transaction-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+.transaction-table-wrapper {
+  overflow-x: auto;
+}
+
+.transaction-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.transaction-table th,
+.transaction-table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.transaction-table th {
+  background-color: #f3f4f6;
+  font-weight: 600;
+  color: #374151;
+}
+
+.transaction-table tr:hover {
+  background-color: #f9fafb;
+}
+
+.delete-btn {
+  background-color: #ef4444;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #dc2626;
+}
