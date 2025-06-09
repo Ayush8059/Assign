@@ -43,7 +43,7 @@ const UploadBank = ({ userId }) => {
 
     //   <div className="grid grid-cols-2 gap-6 mt-6">
     //     <div>
-    //       <h3 className="text-lg font-bold mb-2">✅ Matched Transactions</h3>
+    //       <h3 className="text-lg font-bold mb-2"> Matched Transactions</h3>
     //       <table className="table-auto w-full border">
     //         <thead>
     //           <tr>

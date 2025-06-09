@@ -6,7 +6,7 @@ const generateMatchPDF = (userId, matched, unmatched) => {
   return new Promise((resolve, reject) => {
     const doc = new PDFDocument();
     const fileName = `match-result-${userId}-${Date.now()}.pdf`;
-    const filePath = path.join(__dirname, `../uploads/${fileName}`);
+    const filePath = path.join(__dirname, `./uploads/${fileName}`);
     const writeStream = fs.createWriteStream(filePath);
 
     doc.pipe(writeStream);

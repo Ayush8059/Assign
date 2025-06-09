@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import './TransactList.css'; // Assuming you have a CSS file for styling
+import './TransactList.css'; 
 const TransactionList = () => {
   const [transactions, setTransactions] = useState([]);
   const userId = localStorage.getItem('userId');

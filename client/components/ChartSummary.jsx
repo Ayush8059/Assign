@@ -4,11 +4,11 @@ import {
   BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid, ResponsiveContainer
 } from "recharts";
 
-const ChartComponent = ({ userId }) => {
+const ChartComponent = () => {
   const [transactions, setTransactions] = useState([]);
   const [filter, setFilter] = useState("monthly");
   const [chartData, setChartData] = useState([]);
-//  const userId = localStorage.getItem('userId');
+ const userId = localStorage.getItem('userId');
   useEffect(() => {
     const fetchTransactions = async () => {
       try {
